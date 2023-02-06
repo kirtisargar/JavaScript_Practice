@@ -66,4 +66,25 @@ console.log(hobby2);
 console.log(hobby3);
 console.log(`My hobbies:${hobby1} ${hobby2} ${hobby3}`);
 console.log("======Assignment.2======");
+console.log("1.Given string");
+ var create="  Hey you are doing good,keep it up  ";
+ console.log(create);
+ console.log(`2)Length of string is:${create.length}`);
+ console.log(`3)Remove leading and trailing extra spaces:${create.trim()}`); 
+ console.log(`4)Print the total number of extra spaces count`);
+ var createLength=create.trim();
+ var count =create.length-createLength.length;
+ console.log(count);
+ console.log(`Count extra spaces removed:${count}`);
+ console.log("5 Print the first and last character on same line after trim()");
+console.log(`5) The first character of string is:${createLength.charAt(0)}and The last character of string is:${createLength.charAt(37)}`);
+console.log("6)Print the total words available in the string after trim()");
+var wordsSentence=createLength.split(" ");
+console.log(`6)total words in string are :${wordsSentence.length}`);
+var indexOf=createLength.indexOf("good");
+console.log(`7)Index of word "good" is:${indexOf}`);
+console.log("8)print the substing starting from index 22, using substring() and slice()");
+//console.log(`Substring starting from index 22 is:${}`);
+
+
  
